@@ -1,0 +1,49 @@
+    html,
+body,
+.container,
+.scroller,
+.scroller section {
+    height: 100%;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.scroller section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding-top: 1px;
+}
+
+#ace1 {
+    background-image: url(https://cloud.githubusercontent.com/assets/9591304/12650026/35ca5fbe-c607-11e5-887d-4e534e13777f.jpg)
+}
+
+#ace1 .hero-text {
+    top: 45%;
+}
+
+#ace3 {
+    background-image: url(https://cloud.githubusercontent.com/assets/9591304/12650026/35ca5fbe-c607-11e5-887d-4e534e13777f.jpg)
+}
+
+#ace5 {
+    background-image: url(https://cloud.githubusercontent.com/assets/9591304/12650026/35ca5fbe-c607-11e5-887d-4e534e13777f.jpg) #ace4 {
+        background-image: url(https://cloud.githubusercontent.com/assets/9591304/12650026/35ca5fbe-c607-11e5-887d-4e534e13777f.jpg)
+    }
